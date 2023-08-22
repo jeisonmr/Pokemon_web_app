@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.app__main{
+  width: 100%;
+  max-height: auto;
+  min-height: 100vh;
+  background-color: #19132D;
+  position: relative;
+}

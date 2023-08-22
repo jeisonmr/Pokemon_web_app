@@ -1,0 +1,26 @@
+.navigation__header {
+  height: 120px;
+  padding: 15px 20px;
+}
+.navigation__nav {
+  width: 100%;
+  background-color: #363062;
+  display: flex;
+  border-radius: 20px;
+}
+
+.navigation__logo {
+  width: 70px;
+  margin: 10px 50px;
+}
+.navigation__list-items {
+  width: 90%;
+  color: #FFF;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+  list-style: none;
+  text-decoration: none;
+}
