@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import "./Card.css";
 
 export const Card = ({pokemon}) => {
-  // const imagenes = [];
+  
+  
 
   return (
     <Link to={`/pokemon/${pokemon.id}`} className="card container__card">

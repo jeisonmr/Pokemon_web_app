@@ -26,13 +26,11 @@ export const PokemonView = () => {
 console.log(pokemon);
   return (
     <>
-    {(!loading 
-      ? 'Cargando...' 
-      :
+    
       <h1>{pokemon.name}</h1>
-      // <img src={pokemon.sprites.other.home.front_defaul} alt="" />
-      // <p>{pokemon.name}</p>)
-      )}
+      <img src={pokemon.sprites.other.home.front_defaul} alt="" />
+      <p>{pokemon.name}</p>
+    
     </>
   )
 }

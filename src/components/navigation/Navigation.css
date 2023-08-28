@@ -17,9 +17,10 @@
   width: 90%;
   color: #FFF;
   display: flex;
+  justify-content: end ;
   gap: 20px;
   align-items: center;
-  flex-direction: row-reverse;
+
   padding-right: 100px;
   list-style: none;
   text-decoration: none;

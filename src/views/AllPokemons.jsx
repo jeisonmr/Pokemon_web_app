@@ -2,11 +2,11 @@ import { useContext } from "react";
 import ContextPokemon from "../components/Context/ContextPokemon";
 import "./styles/AllPokemons.css";
 import { Card } from "../components/cards/Card";
-import { Link } from "react-router-dom";
+
 
 export const AllPokemons = () => {
   const { listPokemons, morePokemons } = useContext(ContextPokemon);
-  console.log(listPokemons);
+  // console.log(listPokemons);
 
   return (
     <>
@@ -19,12 +19,12 @@ export const AllPokemons = () => {
           </div>
         </form>
       </div>
+
       <div className="allpokemons__container">
         {listPokemons.map((pokemon) => {
+          // console.log('render');
           return (
-            <>
-              <Card key={pokemon.id} pokemon={pokemon} />
-            </>
+              <Card key={pokemon.id} pokemon={pokemon} />        
           );
         })}
 
